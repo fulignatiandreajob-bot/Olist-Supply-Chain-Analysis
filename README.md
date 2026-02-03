@@ -1,6 +1,6 @@
-# 📦 Olist Supply Chain Analysis: Unmasking Delivery Delays
+# Olist Supply Chain Analysis: Unmasking Delivery Delays
 
-### 🎯 Business Problem & Objective
+### Business Problem & Objective
 In the e-commerce sector, on-time delivery is the primary driver of customer satisfaction. This project analyzes the **Olist E-commerce dataset** (Brazilian marketplace) to answer a critical business question:
 
 > *"Are delivery delays caused by structural logistics inefficiencies (carriers) or by the sellers' slowness in preparing orders?"*
@@ -9,14 +9,14 @@ The goal was to isolate the root causes of delays and identify specific actionab
 
 ---
 
-### 📊 Dashboard Overview
+### Dashboard Overview
 ![Olist Dashboard](3_Images/dashboard_olist.jpg)
 
 **[👉 Click here to view the Interactive Dashboard on Tableau Public]([INSERISCI_QUI_IL_TUO_LINK_TABLEAU](https://public.tableau.com/views/Book2_17701285198890/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
 
 ---
 
-### 🔑 Key Findings
+### Key Findings
 By combining **SQL** for data extraction and **R** for statistical modeling, the analysis revealed:
 
 * **Sellers are the Main Bottleneck:** Approximately **55.68%** of all delayed orders were flagged as "Seller Fault." These sellers took significantly longer than the standard benchmark to hand over the package to the carrier, effectively causing the delay before the logistics process even began.
@@ -25,7 +25,7 @@ By combining **SQL** for data extraction and **R** for statistical modeling, the
 
 ---
 
-### 📉 Statistical Evidence (Regression Analysis)
+### Statistical Evidence (Regression Analysis)
 To validate the findings, a Linear Regression model was run in R (`lm`) to measure the impact of variables on the Delivery Gap.
 
 ![Regression Table](3_Images/regression_table.png)
@@ -36,7 +36,7 @@ To validate the findings, a Linear Regression model was run in R (`lm`) to measu
 
 ---
 
-### 📂 Project Structure & Methodology
+### Project Structure & Methodology
 
 The project follows a full data analysis pipeline:
 
@@ -55,13 +55,13 @@ The project follows a full data analysis pipeline:
 
 ---
 
-### 🛠 Tech Stack
+### Tech Stack
 * **SQL (PostgreSQL):** Data Manipulation & Extraction.
 * **R (Tidyverse, Stargazer, ggplot2):** Statistical Analysis & Modeling.
 * **Tableau:** Data Visualization & Storytelling.
 
 ---
 
-### 📬 Contact
+### Contact
 * **Author:** Andrea Fulignati
 * **LinkedIn:** [https://www.linkedin.com/in/andreafulignati/]
