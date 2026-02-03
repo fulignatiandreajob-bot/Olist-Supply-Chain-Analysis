@@ -10,7 +10,7 @@ The goal was to isolate the root causes of delays and identify specific actionab
 ---
 
 ### Dashboard Overview
-![Olist Dashboard](3_Images/dashboard_olist.jpg)
+![Olist Dashboard](3_Images/dashboard_olist.png)
 
 **[👉 Click here to view the Interactive Dashboard on Tableau Public]([INSERISCI_QUI_IL_TUO_LINK_TABLEAU](https://public.tableau.com/views/Book2_17701285198890/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))**
 
